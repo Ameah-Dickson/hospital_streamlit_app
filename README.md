@@ -1,2 +1,21 @@
-# hospital_streamlit_app
-Hospital Secure Document Management System A full-featured hospital information and document management platform built with Streamlit. This app enables staff to upload, share, and manage hospital documents securely across departments, with user-specific access, role-based permissions, and modern UI design.
+Hospital Admin System — Streamlit MVP
+-------------------------------------
+Run this demo locally:
+
+1. Create a virtual env and install requirements:
+   python -m venv venv
+   source venv/bin/activate   (or venv\Scripts\activate on Windows)
+   pip install -r requirements.txt
+
+2. Run the app:
+   streamlit run app.py
+
+Demo users:
+  - admin@hospital.test / admin123  (Administrator)
+  - hr@hospital.test / hrpass       (HR Manager)
+  - nurse@hospital.test / nursepass (Nurse Manager)
+  - head@hospital.test / headpass   (Head of Facility)
+
+Notes:
+- This is a demo scaffold using CSV files for storage (data/ folder).
+- Not production ready. Replace auth and CSV persistence with a real DB for production.
